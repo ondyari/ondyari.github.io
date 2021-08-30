@@ -7,9 +7,9 @@ url: "https://ondyari.github.io"
 site-twitter: 
 
 # multiple used links
-faceforensicsurl: "/flexible-jekyll/faceforensics"
-blogurl: "/flexible-jekyll/blog"
-teachingurl: "/flexible-jekyll/teaching"
+faceforensicsurl: "/faceforensics"
+blogurl: "/blog"
+teachingurl: "/teaching"
 authorniessner: '<a href="https://scholar.google.com/citations?user=eUtEs6YAAAAJ">Matthias Nießner</a>'
 authorthies: '<a href="https://scholar.google.com/citations?user=eUtEs6YAAAAJ">JustusThies</a>'
 authorroessler: '<a href="https://scholar.google.com/citations?user=GaQvwTcAAAAJ">Andreas Rössler</a>'
