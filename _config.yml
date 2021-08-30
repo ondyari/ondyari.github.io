@@ -1,0 +1,47 @@
+title: Andreas Roessler
+description: 
+  Personal webpage of Andreas Roessler, a PhD student at the Dynamic Vision and Learning Group supervised by Laura Leal-Taixé at the Technical University of Munich
+permalink: ':title/'
+baseurl: "/flexible-jekyll" # the subpath of your site, e.g. /blog
+url: "https://ondyari.github.io" 
+site-twitter: 
+
+# multiple used links
+faceforensicsurl: "/flexible-jekyll/faceforensics"
+blogurl: "/flexible-jekyll/blog"
+teachingurl: "/flexible-jekyll/teaching"
+authorniessner: '<a href="https://scholar.google.com/citations?user=eUtEs6YAAAAJ">Matthias Nießner</a>'
+authorthies: '<a href="https://scholar.google.com/citations?user=eUtEs6YAAAAJ">JustusThies</a>'
+authorroessler: '<a href="https://scholar.google.com/citations?user=GaQvwTcAAAAJ">Andreas Rössler</a>'
+authorverdoliva: '<a href="https://scholar.google.com/citations?user=HItjEd0AAAAJ">Luisa Verdoliva</a>'
+authorcozzolino: '<a href="https://scholar.google.com/citations?user=v3_c6zsAAAAJ">Davide Cozzolino</a>'
+authorriess: '<a href="https://scholar.google.de/citations?user=0HGXYNMAAAAJ">Christian Riess</a>'
+
+# Author Settings
+author: Andreas Rössler # add your name
+author-img: pic.png # add your photo
+about-author: 
+  I am a PhD student at the Dynamic Vision and Learning Group supervised by Laura Leal-Taixé working on detection and creation of artificially altered human faces
+#social-twitter: # add your Twitter handle
+social-facebook: # add your Facebook handle
+social-github: ondyari # add your Github handle
+social-linkedin: andreas-roessler # add your Linkedin handle
+social-email: andreas.roessler@tum.de # add your Email address
+
+# Disqus
+discus-identifier: # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]

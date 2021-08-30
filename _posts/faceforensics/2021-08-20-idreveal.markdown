@@ -1,0 +1,21 @@
+---
+layout: post
+title: "ID-Reveal: Identity-aware DeepFake Video Detection"
+date: 2021-08-20
+description: We introduce ID-Reveal, a new approach that learns temporal facial features, specific of how a person moves while talking, by means of metric learning coupled with an adversarial training strategy.
+fig-caption: We introduce ID-Reveal, a new approach that learns temporal facial features, specific of how a person moves while talking, by means of metric learning coupled with an adversarial training strategy.
+tags: [faceforensics, highlights]
+img:  idreveal.png
+---
+<p align="center">{{site.authorcozzolino}} <b>{{site.authorroessler}}</b>  {{site.authorthies}} {{site.authorniessner}} {{site.authorverdoliva}}</p>
+
+<p align="center"><b>ICCV 2021</b></p>
+
+A major challenge in DeepFake forgery detection is that state-of-the-art algorithms are mostly trained to detect a specific fake method. As a result, these approaches show poor generalization across different types of facial manipulations, e.g., from face swapping to facial reenactment. To this end, we introduce ID-Reveal, a new approach that learns temporal facial features, specific of how a person moves while talking, by means of metric learning coupled with an adversarial training strategy. The advantage is that we do not need any training data of fakes, but only train on real videos. Moreover, we utilize high-level semantic features, which enables robustness to widespread and disruptive forms of post-processing. We perform a thorough experimental analysis on several publicly available benchmarks. Compared to state of the art, our method improves generalization and is more robust to low-quality videos, that are usually spread over social networks. In particular, we obtain an average improvement of more than 15% in terms of accuracy for facial reenactment on high compressed videos.
+
+__Paper Link:__ [Arxiv - IDReveal](https://arxiv.org/pdf/2012.02512.pdf)
+
+__Project Video:__
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RsFxsOLvRdY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+

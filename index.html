@@ -1,0 +1,29 @@
+---
+layout: main
+---
+<div class="header"> Heyho there</div>
+
+<p>I am Andreas Rössler, a PhD student at the Dynamic Vision and Learning Group supervised by Laura Leal-Taixé at the Technical University of Munich (TUM). Previously, I was a PhD student at the Visual Computing chair at TUM where I studied facial manipulation detection under the supervision of Prof. Matthias Nießner.
+</p>
+
+<p>My research interests include all topics around general generative methods, facial manipulation & animation synthesis as well as its detection via automated methods.</p>
+
+<p><b>Here are some highlights. More information in the respective subsections on the left where you can get more infos about my research, teaching and thoughts :)</b></p>
+
+
+{% for post in site.tags.highlights %}
+<article class="post">
+  {% if post.img %}
+    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+  {% else %}
+  {% endif %}
+  <div class="post-content">
+    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+    <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
+    <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+    <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
+  </div>
+</article>
+{% endfor %}
+
+{% include pagination.html %}
