@@ -2,12 +2,18 @@
 layout: post
 title: "FaceForensics: A Large-scale Video Dataset for Forgery Detection in Human Faces"
 date: 2018-03-24
-description: We introduce a novel face manipulation dataset of about half a million edited images for automated detection.
-fig-caption: We introduce a novel face manipulation dataset of about half a million edited images for automated detection.
+description: We introduce a novel face manipulation dataset of about half a million edited images for automated detection.s
 tags: [faceforensics, highlights]
 img:  faceforensics.png
+thumbnail: faceforensics.png
+authors:
+ - andreas_roessler
+ - davide_cozzolino
+ - luisa_verdoliva
+ - christian_riess
+ - justus_thies
+ - matthias_niessner
 ---
-<p align="center"><b>{{site.authorroessler}}</b> {{site.authorcozzolino}} {{site.authorverdoliva}} {{site.authorriess}} {{site.authorthies}} {{site.authorniessner}}</p>
 
 <p align="center"><b>Arxiv</b></p>
 

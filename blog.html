@@ -1,18 +1,11 @@
 ---
 layout: main
 ---
-<div class="header"> Heyho there</div>
+<div class="header">Blog & Thoughts</div>
 
-<p>I am Andreas Rössler, a PhD student at the Dynamic Vision and Learning Group supervised by Prof. Laura Leal-Taixé at the Technical University of Munich (TUM). Previously, I was a PhD student at the Visual Computing chair at TUM where I studied facial manipulation detection under the supervision of Prof. Matthias Nießner.
-</p>
+<p>Some reports, rambles or other topics I want to share with a broader audience. I won't post too much but if I have a topic that is worth talking about and I find the time to write it down, it will be released here ;).</p>
 
-<p>My research interests include all topics around general generative methods, facial manipulation & animation synthesis as well as its detection via automated methods.</p>
-
-<p>More information in the respective subsections on the left where you can get more infos about my research, teaching and thoughts :)</p>
-
-<p><hr><b>Highlights:</b><br></p>
-
-{% for post in site.tags.highlights %}
+{% for post in site.tags.blog %}
 <article class="post">
   {% if post.img %}
     <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.thumbnail}})" href="{{post.url | prepend: site.baseurl}}"></a>

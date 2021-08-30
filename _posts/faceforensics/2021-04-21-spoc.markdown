@@ -3,11 +3,16 @@ layout: post
 title: "SpoC: Spoofing Camera Fingerprints"
 date: 2021-04-21
 description: Each camera model leaves trademark traces that can be exploited for forensic analyses. The absence or distortion of such traces in the target image is a strong hint of manipulation.
-fig-caption: Each camera model leaves trademark traces that can be exploited for forensic analyses. The absence or distortion of such traces in the target image is a strong hint of manipulation.
 tags: [faceforensics]
 img:  spoc.png
+thumbnail:  spoc.png
+authors:
+ - davide_cozzolino
+ - justus_thies
+ - andreas_roessler
+ - matthias_niessner
+ - luisa_verdoliva
 ---
-<p align="center">{{site.authorcozzolino}}{{site.authorthies}} <b>{{site.authorroessler}}</b> {{site.authorniessner}} {{site.authorverdoliva}} </p>
 
 <p align="center"><b>CVPR 2021 Workshop</b></p>
 

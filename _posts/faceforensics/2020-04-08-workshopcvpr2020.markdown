@@ -1,0 +1,33 @@
+---
+layout: post
+title: "CVPR 2020: Workshop on Media Forensics"
+date: 2020-04-08
+description: Workshop on Media Forensics at CVPR 2020
+img: cvpr2020workshop.jpg
+thumbnail: cvpr2020workshop.jpg
+tags: [faceforensics]
+authors:
+- christian_canton 
+- sam_gregory
+- laura_leal_taixe
+- christoph_bregler
+- hany_farid
+- matthias_niessner
+- sergio_escalera
+- edward_delip
+- scott_mccloskey
+- isablle_guyon
+- arslan_basharat
+- justus_thies
+- luisa_verdoliva
+- hugo_jair_escalante
+- christa_scharfenberg
+- andreas_roessler
+- jun_wan
+- davide_cozzolino
+- guo_guodong
+---
+
+The recent advent of techniques that generate photo-realistic fully synthetic images and videos, and the increasing prevalence of misinformation associated with such fabricated media have raised the level of interest of media forensics within the computer vision community. Both academia and industry have addressed this topic in the past, but only recently, with the emergence of more sophisticated ML and CV techniques, has multimedia forensics has become a broad and prominent area of research. In the recent years, there has been a number of events (Media Forensics@CVPR2019 or WOCM@ECCV2018 among others) that touched on this topic but now, more than ever, it critical to keep advancing on all fronts of media forensics: from detection of manipulations, biometric implications, misrepresentation/spoofing, etc.
+
+__Workshop Website:__ [CVPR 2020: Workshop on Media Forensics](https://sites.google.com/view/wmediaforensics2020/)

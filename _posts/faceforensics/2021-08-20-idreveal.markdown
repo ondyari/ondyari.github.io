@@ -2,12 +2,17 @@
 layout: post
 title: "ID-Reveal: Identity-aware DeepFake Video Detection"
 date: 2021-08-20
-description: We introduce ID-Reveal, a new approach that learns temporal facial features, specific of how a person moves while talking, by means of metric learning coupled with an adversarial training strategy.
-fig-caption: We introduce ID-Reveal, a new approach that learns temporal facial features, specific of how a person moves while talking, by means of metric learning coupled with an adversarial training strategy.
+description: We introduce ID-Reveal, a new approach that learns temporal facial features, specific of how a person moves while talking, by means of metric learning coupled with an adversarial training strategy.s
 tags: [faceforensics, highlights]
 img:  idreveal.png
+thumbnail: idreveal.png
+authors:
+ - davide_cozzolino
+ - andreas_roessler
+ - justus_thies
+ - matthias_niessner
+ - luisa_verdoliva
 ---
-<p align="center">{{site.authorcozzolino}} <b>{{site.authorroessler}}</b>  {{site.authorthies}} {{site.authorniessner}} {{site.authorverdoliva}}</p>
 
 <p align="center"><b>ICCV 2021</b></p>
 

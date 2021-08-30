@@ -3,11 +3,17 @@ layout: post
 title: "FaceForensics++: Learning to Detect Manipulated Facial Images"
 date: 2019-08-26
 description: This paper examines the realism of state-of-the-art image manipulations, and how difficult it is to detect them, either automatically or by humans.
-fig-caption: This paper examines the realism of state-of-the-art image manipulations, and how difficult it is to detect them, either automatically or by humans.
 tags: [faceforensics, highlights]
 img:  faceforensics++.png
+thumbnail: faceforensics++.png
+authors:
+ - andreas_roessler
+ - davide_cozzolino
+ - luisa_verdoliva
+ - christian_riess
+ - justus_thies
+ - matthias_niessner
 ---
-<p align="center"><b>{{site.authorroessler}}</b> {{site.authorcozzolino}} {{site.authorverdoliva}} {{site.authorriess}} {{site.authorthies}} {{site.authorniessner}}</p>
 
 <p align="center"><b>ICCV 2019</b></p>
 

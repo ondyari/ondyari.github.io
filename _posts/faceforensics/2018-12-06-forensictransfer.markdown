@@ -3,11 +3,17 @@ layout: post
 title: "ForensicTransfer: Weakly-supervised Domain Adaptation for Forgery Detection"
 date: 2018-12-06
 description: We introduce a novel face manipulation dataset of about half a million edited images for automated detection.
-fig-caption: We introduce a novel face manipulation dataset of about half a million edited images for automated detection.
 tags: [faceforensics]
 img:  forensictransfer.png
+thumbnail: forensictransfer.png
+authors:
+ - davide_cozzolino
+ - justus_thies
+ - andreas_roessler
+ - christian_riess
+ - matthias_niessner
+ - luisa_verdoliva
 ---
-<p align="center">{{site.authorcozzolino}}{{site.authorthies}} <b>{{site.authorroessler}}</b>  {{site.authorriess}} {{site.authorniessner}} {{site.authorverdoliva}} </p>
 
 <p align="center"><b>Arxiv</b></p>
 
