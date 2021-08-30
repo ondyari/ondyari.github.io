@@ -4,7 +4,7 @@ layout: main
 <div class="header">To Be Built</div>
 
 
-{% for post in site.tags.blog %}
+{% for post in site.tags.teaching %}
 <article class="post">
   {% if post.img %}
     <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.thumbnail}})" href="{{post.url | prepend: site.faceforensicsurl}}"></a>
