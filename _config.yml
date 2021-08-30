@@ -2,7 +2,7 @@ title: Andreas Roessler
 description: 
   Personal webpage of Andreas Roessler, a PhD student at the Dynamic Vision and Learning Group supervised by Laura Leal-Taixé at the Technical University of Munich
 permalink: ':title/'
-baseurl: "/flexible-jekyll" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ondyari.github.io" 
 site-twitter: 
 
