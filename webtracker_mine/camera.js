@@ -43,8 +43,16 @@ function startVideoStream(deviceId) {
             video.onloadedmetadata = () => {
                 video.play();
             };
+            video.addEventListener('click', () => {
+                video.play(); // Try playing the video when the user clicks on it
+            });
         })
         .catch(error => {
             console.error('Error accessing camera:', error);
         });
 }
+
+// iOS may require user interaction to play the video
+video.addEventListener('touchstart', () => {
+    video.play();
+});
